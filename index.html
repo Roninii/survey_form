@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Favorite Game E3 2018</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">What Was <em>Your</em> Favorite Game of E3 2018?</h1>
+        <p id="description" class="centerelement">There were a lot of exciting games announced at E3 2018.From small indie titles, to blockbusters with massive budgets, there is a little something for everyone. With all of these exciting announcements, or teasers <em>cough</em> Elder Scrolls 6 <em>cough</em>, which one took your award for favorite game of E3?</p>
+    </header>
+    <main>
+        <form id="survey-form">
+            <div>
+                <h3> Select your favorite game from E3 2018: </h3>
+                <div class=" centerelement">
+                    <input type="radio" id="cyberpunk" name="game" value="cyberpunk2077" checked> Cyberpunk 2077</input>
+                </div>
+                <div class="centerelement">
+                    <input type="radio" id="elderscrolls" name="game" value="es6"> Elder Scrolls 6</input>
+                </div>
+                <div class="centerelement">
+                    <input type="radio" id="doom" name="game" value="doom"> Doom: Eternal</input>
+                </div>
+                <div class="centerelement">
+                    <input type="radio" id="ac" name="game" value="odyssey"> Assassin's Creed: Odyssey</input>
+                </div>
+                <div class="centerelement">
+                    <input type="radio" id="pedro" name="game" value="pedro"> My Friend Pedro</input>
+                </div>
+                <div class="centerelement">
+                    <input type="radio" id="spirit" name="game" value="cpt spirit"> The Awesome Adventures of Captain Spirit</input>
+                </div>
+                <div class="centerelement">
+                    <input type="radio" id="other" name="game" value="other">Other: <input type="text" id="otherGame" name="game"/></input>
+                </div>
+            </div>
+            <div class="centerelement">
+                <h3>What platform do you play on?</h3>
+                <select id="dropdown">
+                    <option id="pc">PC</option>
+                    <option id="xbox">Xbox One</option>
+                    <option id="ps4">PS4</option>
+                    <option id="switch">Nintendo Switch</option>
+                </select>
+            </div>
+                <h3>What kind of games do you play most? (select all that apply)</h3>
+                <div class="centerelement">
+                    <input type="checkbox" id="rpg" name="type" value="rpg"> RPG</input>
+                </div>
+                <div class="centerelement">
+                    <input type="checkbox" id="fps" name="type" value="rpg"> FPS</input>
+                </div>
+                <div class="centerelement">
+                    <input type="checkbox" id="action" name="type" value="action"> Action</input>
+                </div>
+                <div class="centerelement">
+                    <input type="checkbox" id="strategy" name="type" value="strategy"> Strategy</input>
+                </div>
+                <div class="centerelement">
+                    <input type="checkbox" id="racing" name="type" value="racing"> Racing</input>
+                </div>
+                <div class="centerelement">
+                    <input type="checkbox" id="platform" name="type" value="platform"> Platform</input>
+                </div>
+                <div class="centerelement">
+                    <input type="checkbox" id="otherType" name="type" value="otherType"> Other: <input type="text" id="otherType-answer" name="type" /></input>
+                </div>
+            </div>
+            <div>
+                <h3>Any other cool E3 announcements you are pumped for? What about things that got left out than you were bummed about? Let us know!</h3>
+                <div class="centerelement">
+                    <textarea>
+                    </textarea>
+                </div>
+            </div>
+            <div class="contactinfo centerelement">
+                <div class="centerelement">
+                    <label for="name" id="name-label">Name: </label>
+                    <input type="text" id="name" name="name" placeholder="Gabe Newell" required>
+                </div>
+                <div class="centerelement">
+                    <label for="email" id="email-label">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="easuckz@gmail.com" required>
+                </div>
+                <div class="centerelement">
+                    <label for="number" id="number-label">Age: </label>
+                    <input type="number" id="number" name="number" min="13" max="200" placeholder="Age">
+                </div>
+                <div class="center">
+                    <input type="submit" value="Submit" id="submit" class="submitButton">
+                </div>
+            </div>
+        </form>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
